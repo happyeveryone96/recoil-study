@@ -5,7 +5,6 @@ import css from './TextArea.module.scss';
 
 function TextArea() {
   const ref = useRef(null);
-  console.log(ref.current);
   const handleHeight = () => {
     if (ref === null || ref.current === null) {
       return;
