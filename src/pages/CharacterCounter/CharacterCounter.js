@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInput from './TextInput/TextInput';
+import TextArea from './TextArea/TextArea';
 import CharacterCount from './CharacterCount/CharacterCount';
 import css from './CharacterCounter.module.scss';
 
@@ -7,7 +7,7 @@ function CharacterCounter() {
   return (
     <div className={css.container}>
       <h1>글자수 세기</h1>
-      <TextInput />
+      <TextArea />
       <CharacterCount />
     </div>
   );
